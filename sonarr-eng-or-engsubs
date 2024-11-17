@@ -1,0 +1,61 @@
+{
+  "name": "Multi-Subs",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "multisubs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "multi[- ]*subs?"
+      }
+    },
+    {
+      "name": "multiple subtitle",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "Multiple Subtitle"
+      }
+    },
+    {
+      "name": "VOSTEN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(VOST.*?EN)\\b"
+      }
+    },
+    {
+      "name": "SUBENGLISH",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(SUBEN(G|GLISH)?)\\b"
+      }
+    },
+    {
+      "name": "English",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 1,
+        "exceptLanguage": false
+      }
+    },
+    {
+      "name": "Multi-subs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "Multi-Subs"
+      }
+    }
+  ]
+}
