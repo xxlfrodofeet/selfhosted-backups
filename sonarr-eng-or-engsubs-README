@@ -4,3 +4,15 @@ Custom Format
 Plus Sign (add)
 Import (bottom left) 
 Copy/Paste sonarr-eng-or-engsubs stuff
+Import (bottom right)
+Choose name 
+Save (bottom right)
+Sonarr 
+Settings
+Profiles
+Plus sign
+Choose acceptable quality
+Should see 'Custom Format' followed by a listing of the format you created. 
+Plus like a bunch of times 
+Save
+Anime should now be searched by English Audio or Subtitles. 
